@@ -1,0 +1,10 @@
+^D:\02JS45N\SOURE_CODE\APPLICATION\APP_KU\BUILD\WINDOWS\CMAKEFILES\AD8A065157E53AA2C674E8A1F99D1C30\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

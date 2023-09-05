@@ -1,0 +1,28 @@
+^D:\02JS45N\SOURE_CODE\APPLICATION\APP_KU\BUILD\WINDOWS\CMAKEFILES\57FFED80A60099FE4CF4BD30E6B36FEE\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=D:\02JS45N\Soure_Code\Application\app_ku FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=D:\02JS45N\Soure_Code\Application\app_ku\windows\flutter\ephemeral PROJECT_DIR=D:\02JS45N\Soure_Code\Application\app_ku FLUTTER_TARGET=D:\02JS45N\Soure_Code\Application\app_ku\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9jZGJlZGE3ODhhMjkzZmEyOTY2NWRjM2ZhM2Q2ZTYzYmQyMjFjYjBkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\02JS45N\Soure_Code\Application\app_ku\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\02JS45N\SOURE_CODE\APPLICATION\APP_KU\BUILD\WINDOWS\CMAKEFILES\24DC6BD2D53D02F368A2804C517E81F9\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\02JS45N\SOURE_CODE\APPLICATION\APP_KU\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/02JS45N/Soure_Code/Application/app_ku/windows -BD:/02JS45N/Soure_Code/Application/app_ku/build/windows --check-stamp-file D:/02JS45N/Soure_Code/Application/app_ku/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
